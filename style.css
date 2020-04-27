@@ -95,10 +95,56 @@ button {
   border: none;
   outline: none;
   background-color: rgb(70, 100, 140);
+  transform-origin: center bottom;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn_yes,
+.btn_start {
+  animation: hey 10s ease-in-out 3s infinite;
+}
+
+.btn_no,
+.btn_end {
+  animation: hey 10s ease-in-out 5s infinite;
+}
+
+@keyframes hey {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  1% {
+    transform: rotateZ(calc(0deg + 28deg));
+  }
+  2% {
+    transform: rotateZ(calc(0deg - 21deg));
+  }
+  3% {
+    transform: rotateZ(calc(0deg + 15deg));
+  }
+  4% {
+    transform: rotateZ(calc(0deg - 10deg));
+  }
+  5% {
+    transform: rotateZ(calc(0deg + 6deg));
+  }
+  6% {
+    transform: rotateZ(calc(0deg - 3deg));
+  }
+  7% {
+    transform: rotateZ(calc(0deg + 1deg));
+  }
+  8% {
+    transform: rotateZ(calc(0deg + 0deg));
+  }
+  9% {
+    transform: rotateZ(0deg);
+  }
 }
 
 button:hover {
-  filter: brightness(80%);
+  filter: brightness(130%);
+  transform: scale(1.03, 1.03);
 }
 
 button:active {

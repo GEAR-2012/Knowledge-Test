@@ -33,5 +33,15 @@
     "ques": "Can you use a shovel at the beach for making pits?",
     "answ": "no",
     "expl": "Because you are NOT Michał, and only HE can do that."
+  },
+  "stage_8": {
+    "ques": "Is JavaScript a compiled programming language?",
+    "answ": "no",
+    "expl": "JavaScript is an interpreted language, not a compiled language. A program such as C++ or Java needs to be compiled before it is run. The source code is passed through a program called a compiler, which translates it into bytecode that the machine understands and can execute."
+  },
+  "stage_9": {
+    "ques": "Is javascript an object oriented language?",
+    "answ": "yes",
+    "expl": "JavaScript is object-oriented, but is not a class-based object-oriented language like Java, C++, C#, etc. Class-based OOP languages are a subset of the larger family of OOP languages which also include prototype-based languages like JavaScript and Self."
   }
 }
