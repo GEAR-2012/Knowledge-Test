@@ -1,0 +1,37 @@
+{
+  "stage_1": {
+    "ques": "If you rip your shirt, would you staple it back together?",
+    "answ": "no",
+    "expl": "Because it is better to sewing it together."
+  },
+  "stage_2": {
+    "ques": "Is a father older than his son?",
+    "answ": "yes",
+    "expl": "Because it is only possible to have a child in adulthood."
+  },
+  "stage_3": {
+    "ques": "Are dogs and cats animals that live in the jungle?",
+    "answ": "no",
+    "expl": "Because they would be unable to survive there."
+  },
+  "stage_4": {
+    "ques": "Is a state bigger than a city?",
+    "answ": "yes",
+    "expl": "Because a state includes cities."
+  },
+  "stage_5": {
+    "ques": "Are umbrellas used to keep you wet?",
+    "answ": "no",
+    "expl": "The umbrella is there to keep us dry."
+  },
+  "stage_6": {
+    "ques": "Does Elon Musk want to get to Mars?",
+    "answ": "yes",
+    "expl": "It has always been Elon Musk's dream."
+  },
+  "stage_7": {
+    "ques": "Can you use a shovel at the beach for making pits?",
+    "answ": "no",
+    "expl": "Because you are NOT Michał, and only HE can do that."
+  }
+}
